@@ -127,7 +127,7 @@ As an example, let's say our newsletter had an `id` of 17. Every week,
 when we send out our newsletter, we create a new `entry`. How would we
 expect to interact with the entries of our newsletter in a RESTful
 system?
-
+ 
 ```js
 GET      /newsletters/:id/entries 		 # Show all entries for a newsletter
 POST     /newsletters/:id/entries      # Create a new newsletter entry
